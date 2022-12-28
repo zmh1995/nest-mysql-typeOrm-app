@@ -1,0 +1,23 @@
+{
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSaveTimeout": 750,
+    "editor.formatOnSaveTimeout": 750,
+    "files.autoSaveDelay": 1000,
+  
+    "eslint.enable": true,
+    "tslint.enable": false,
+    "eslint.validate": [
+      "javascript",
+      "typescript",
+      {
+        "language": "html",
+        "autoFix": true
+      }
+    ],
+  
+    "search.exclude": {
+      "**/migrations": true,
+      "**/node_modules": true
+    }
+  }
+  
